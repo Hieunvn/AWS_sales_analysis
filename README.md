@@ -71,9 +71,14 @@ Series([], dtype: int64)
 ##### 1.2.8 Kết xuất dữ liệu ra file CSV và upload trên Power BI
 `df_sales.to_csv("Cleaned_AWS_Sales.csv", index=False)`
 
-### 2. Phân tích dữ liệu trên Power BI
+### 2. Phân tích dữ liệu trên Power BI tìm insights
 #### 2.1 Phân tích doanh số (sales)
 
+<img width="876" height="493" alt="image" src="https://github.com/user-attachments/assets/daee8680-87e4-4d5e-a395-870a4c68b92f" />
+
+Đánh giá tổng thể:
+- Tăng trưởng qua các năm
+- Doanh số tập trung ở khu vực EMEA 
 #### 2.2 Phân tích lợi nhuận (profit)
 
 #### 2.3 Phân tích mối tương quan giữa doanh số và lợi nhuận
