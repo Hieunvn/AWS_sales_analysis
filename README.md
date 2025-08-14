@@ -41,9 +41,13 @@ df_sales.head()
 
 #### 1.4 Kiểm tra thông tin dữ liệu cột đã định dạng đúng kiểu để phân tích.
 df_sales.info()
+
 <class 'pandas.core.frame.DataFrame'>
+
 RangeIndex: 9994 entries, 0 to 9993
+
 Data columns (total 19 columns):
+
  #   Column        Non-Null Count  Dtype  
 ---  ------        --------------  -----  
  0   Row ID        9994 non-null   int64  
@@ -65,7 +69,9 @@ Data columns (total 19 columns):
  16  Quantity      9994 non-null   int64  
  17  Discount      9994 non-null   float64
  18  Profit        9994 non-null   float64
+ 
 dtypes: float64(3), int64(4), object(12)
+
 memory usage: 1.4+ MB
 
 ### 2. Phân tích dữ liệu trên Power BI:
