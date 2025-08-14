@@ -25,11 +25,11 @@ https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-dat
 ## **II. CÁC BƯỚC THỰC HIỆN DỰ ÁN**
 
 ### 1. Upload dữ liệu, kiểm tra và làm sạch trên Colab
-# Load file vào pandas, 
+#### 1.1 Load file vào pandas
 import pandas as pd
-# Đổi tên và đọc file csv
+#### 1.2 Đổi tên và đọc file csv
 df_sales=pd.read_csv('AWS-Sales.csv')
-# Xem thông tin dữ liệu bảng
+#### 1.3 Xem thông tin dữ liệu bảng
 df_sales.head()
 |index|Row ID|Order ID|Order Date|Date Key|Contact Name|Country|City|Region|Subregion|Customer|Customer ID|Industry|Segment|Product|License|Sales|Quantity|Discount|Profit|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -39,7 +39,7 @@ df_sales.head()
 |3|4|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|ContactMatcher|DE9GJKGD44|957\.5775|5|0\.45|-383\.031|
 |4|5|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|Marketing Suite - Gold|OIF7NY23WD|22\.368|2|0\.2|2\.5164|
 
-# Xem thông tin dữ liệu cột đã định dạng đúng kiểu để phân tích.
+#### 1.4 Kiểm tra thông tin dữ liệu cột đã định dạng đúng kiểu để phân tích.
 df_sales.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 9994 entries, 0 to 9993
@@ -67,7 +67,6 @@ Data columns (total 19 columns):
  18  Profit        9994 non-null   float64
 dtypes: float64(3), int64(4), object(12)
 memory usage: 1.4+ MB
-
 
 ### 2. Phân tích dữ liệu trên Power BI:
 
