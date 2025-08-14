@@ -27,7 +27,7 @@ https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-dat
 ### 1. Upload dữ liệu và làm sạch trên Colab
 #### 1.1 Upload dữ liệu
 ##### 1.1.1 Load file vào pandas
-import pandas as pd
+`import pandas as pd`
 ##### 1.1.2 Đổi tên và đọc file csv
 df_sales=pd.read_csv('AWS-Sales.csv')
 ##### 1.1.3 Kiểm tra thông tin dữ liệu bảng
