@@ -47,28 +47,29 @@ df_sales.info()
 RangeIndex: 9994 entries, 0 to 9993
 
 Data columns (total 19 columns):
+#	Column	Count	Non-Null	Dtype
+---	------	----	----------	-----
+0	Row ID	9994	non-null	int64
+1	Order ID	9994	non-null	object
+2	Order Date	9994	non-null	object
+3	Date Key	9994	non-null	int64
+4	Contact Name	9994	non-null	object
+5	Country	9994	non-null	object
+6	City	9994	non-null	object
+7	Region	9994	non-null	object
+8	Subregion	9994	non-null	object
+9	Customer	9994	non-null	object
+10	Customer ID	9994	non-null	int64
+11	Industry	9994	non-null	object
+12	Segment	9994	non-null	object
+13	Product	9994	non-null	object
+14	License	9994	non-null	object
+15	Sales	9994	non-null	float64
+16	Quantity	9994	non-null	int64
+17	Discount	9994	non-null	float64
+18	Profit	9994	non-null	float64
+<img width="302" height="421" alt="image" src="https://github.com/user-attachments/assets/77ed08c3-c112-47e8-843d-c0a7964a9b1d" />
 
- #   Column        Non-Null Count  Dtype  
----  ------        --------------  -----  
- 0   Row ID        9994 non-null   int64  
- 1   Order ID      9994 non-null   object 
- 2   Order Date    9994 non-null   object 
- 3   Date Key      9994 non-null   int64  
- 4   Contact Name  9994 non-null   object 
- 5   Country       9994 non-null   object 
- 6   City          9994 non-null   object 
- 7   Region        9994 non-null   object 
- 8   Subregion     9994 non-null   object 
- 9   Customer      9994 non-null   object 
- 10  Customer ID   9994 non-null   int64  
- 11  Industry      9994 non-null   object 
- 12  Segment       9994 non-null   object 
- 13  Product       9994 non-null   object 
- 14  License       9994 non-null   object 
- 15  Sales         9994 non-null   float64
- 16  Quantity      9994 non-null   int64  
- 17  Discount      9994 non-null   float64
- 18  Profit        9994 non-null   float64
  
 dtypes: float64(3), int64(4), object(12)
 
