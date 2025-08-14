@@ -2,7 +2,7 @@
 
 ### 1. Tên dự án: "Phân tích doanh thu bán hàng của Amazon Web Services(AWS)"
 
-### 2. Mục đích trả lời các câu hỏi:
+### 2. Mục đích dự án:
 - Biến động doanh thu theo thời gian, theo khu vực, theo sản phẩm, phân khúc khách hàng...
 - Biến động lợi nhuận theo thời gian, theo khu vực, theo sản phẩm, phân khúc khách hàng…
 - Phân tích mối tương quan giữa doanh thu và lợi nhuận -> doanh thu có liên hệ như thế nào đến lợi nhuận không?
