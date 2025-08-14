@@ -22,4 +22,13 @@ https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-dat
 - Nộp bài: 15/8/2025
 - Trình bày: 22/8/2025 thời gian 19h - 21h
 
-## II.CÁC BƯỚC THỰC HIỆN
+## II. CÁC BƯỚC THỰC HIỆN DỰ ÁN
+
+### 1. Upload dữ liệu, kiểm tra và làm sạch trên Colab
+#### 1.1 Load file vào pandas
+import pandas as pd
+
+### 2. Phân tích dữ liệu trên Power BI:
+
+
+
