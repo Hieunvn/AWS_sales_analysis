@@ -29,7 +29,7 @@ https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-dat
 import pandas as pd
 #### 1.2 Đổi tên và đọc file csv
 df_sales=pd.read_csv('AWS-Sales.csv')
-#### 1.3 Xem thông tin dữ liệu bảng
+#### 1.3 Kiểm tra thông tin dữ liệu bảng
 df_sales.head()
 |index|Row ID|Order ID|Order Date|Date Key|Contact Name|Country|City|Region|Subregion|Customer|Customer ID|Industry|Segment|Product|License|Sales|Quantity|Discount|Profit|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -39,35 +39,33 @@ df_sales.head()
 |3|4|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|ContactMatcher|DE9GJKGD44|957\.5775|5|0\.45|-383\.031|
 |4|5|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|Marketing Suite - Gold|OIF7NY23WD|22\.368|2|0\.2|2\.5164|
 
-#### 1.4 Kiểm tra thông tin dữ liệu cột đã định dạng đúng kiểu để phân tích.
+#### 1.4 Chuyển đổi cột "Order Date" thành kiểu datetime
+df_sales['Order Date'] = pd.to_datetime(df_sales['Order Date'], errors='coerce')
+#### Chuyển đổi các cột dạng phân loại (categorical)
+categorical_cols = ['Country', 'City', 'Region', 'Subregion', 'Customer',
+                    'Industry', 'Segment', 'Product', 'License', 'Order ID']
+for col in categorical_cols:
+    df_sales[col] = df_sales[col].astype('category')
+ # Chuyển đổi các cột dạng 2 số thập phân
+df_sales['Sales'] = df_sales['Sales'].round(2)
+df_sales['Discount'] = df_sales['Discount'].round(2)
+df_sales['Profit'] = df_sales['Profit'].round(2)
+# Loại bỏ các cột không cần thiết
+df_sales = df_sales.drop(columns=['Row ID', 'Contact Name', 'License', 'Date Key'])
+# Tách cột "Order Date" theo từng tháng, từng năm
+df_sales['Month'] = df_sales['Order Date'].dt.month
+df_sales['Year'] = df_sales['Order Date'].dt.year
+# Kiểm tra dữ liệu bị thiếu
+missing_data = df_sales.isnull().sum()
+print(missing_data[missing_data > 0])
+Series([], dtype: int64)
+# Kiểm tra lại dữ liệu sau khi làm sạch
 df_sales.info()
+<img width="565" height="414" alt="image" src="https://github.com/user-attachments/assets/924def1d-6714-43f2-8afc-33db5128102d" />
 
-#####<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 9994 entries, 0 to 9993
-Data columns (total 19 columns):
- #   Column        Non-Null Count  Dtype  
----  ------        --------------  -----  
- 0   Row ID        9994 non-null   int64  
- 1   Order ID      9994 non-null   object 
- 2   Order Date    9994 non-null   object 
- 3   Date Key      9994 non-null   int64  
- 4   Contact Name  9994 non-null   object 
- 5   Country       9994 non-null   object 
- 6   City          9994 non-null   object 
- 7   Region        9994 non-null   object 
- 8   Subregion     9994 non-null   object 
- 9   Customer      9994 non-null   object 
- 10  Customer ID   9994 non-null   int64  
- 11  Industry      9994 non-null   object 
- 12  Segment       9994 non-null   object 
- 13  Product       9994 non-null   object 
- 14  License       9994 non-null   object 
- 15  Sales         9994 non-null   float64
- 16  Quantity      9994 non-null   int64  
- 17  Discount      9994 non-null   float64
- 18  Profit        9994 non-null   float64
-dtypes: float64(3), int64(4), object(12)
-memory usage: 1.4+ MB
+
+
+    
 
 ### 2. Phân tích dữ liệu trên Power BI:
 
