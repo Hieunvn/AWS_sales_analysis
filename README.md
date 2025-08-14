@@ -67,6 +67,7 @@ Series([], dtype: int64)
 `df_sales.info()`
 
 <img width="565" height="414" alt="image" src="https://github.com/user-attachments/assets/924def1d-6714-43f2-8afc-33db5128102d" />
+
 ##### 1.2.8 Kết xuất dữ liệu ra file CSV và upload trên Power BI
 `df_sales.to_csv("Cleaned_AWS_Sales.csv", index=False)`
 
