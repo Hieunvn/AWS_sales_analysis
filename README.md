@@ -43,9 +43,7 @@ df_sales.head()
 df_sales.info()
 
 <class 'pandas.core.frame.DataFrame'>
-
 RangeIndex: 9994 entries, 0 to 9993
-
 Data columns (total 19 columns):
 #	Column	Count	Non-Null	Dtype
 ---	------	----	----------	-----
@@ -68,11 +66,7 @@ Data columns (total 19 columns):
 16	Quantity	9994	non-null	int64
 17	Discount	9994	non-null	float64
 18	Profit	9994	non-null	float64
-<img width="302" height="421" alt="image" src="https://github.com/user-attachments/assets/77ed08c3-c112-47e8-843d-c0a7964a9b1d" />
-
- 
 dtypes: float64(3), int64(4), object(12)
-
 memory usage: 1.4+ MB
 
 ### 2. Phân tích dữ liệu trên Power BI:
