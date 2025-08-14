@@ -24,13 +24,15 @@ https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-dat
 
 ## **II. CÁC BƯỚC THỰC HIỆN DỰ ÁN**
 
-### 1. Upload dữ liệu, kiểm tra và làm sạch trên Colab
-#### 1.1 Load file vào pandas
+### 1. Upload dữ liệu và làm sạch trên Colab
+#### 1.1 Upload dữ liệu
+##### 1.1.1 Load file vào pandas
 import pandas as pd
-#### 1.2 Đổi tên và đọc file csv
+##### 1.1.2 Đổi tên và đọc file csv
 df_sales=pd.read_csv('AWS-Sales.csv')
-#### 1.3 Kiểm tra thông tin dữ liệu bảng
+##### 1.1.3 Kiểm tra thông tin dữ liệu bảng
 df_sales.head()
+~kq~
 |index|Row ID|Order ID|Order Date|Date Key|Contact Name|Country|City|Region|Subregion|Customer|Customer ID|Industry|Segment|Product|License|Sales|Quantity|Discount|Profit|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |0|1|EMEA-2022-152156|11/9/2022|20221109|Nathan Bell|Ireland|Dublin|EMEA|UKIR|Chevron|1017|Energy|SMB|Marketing Suite|16GRM07R1K|261\.96|2|0\.0|41\.9136|
@@ -39,33 +41,35 @@ df_sales.head()
 |3|4|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|ContactMatcher|DE9GJKGD44|957\.5775|5|0\.45|-383\.031|
 |4|5|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|Marketing Suite - Gold|OIF7NY23WD|22\.368|2|0\.2|2\.5164|
 
-#### 1.4 Chuyển đổi cột "Order Date" thành kiểu datetime
+#### 1.2 Làm sạch dữ liệu
+##### 1.2.1 Chuyển đổi cột "Order Date" thành kiểu datetime
 df_sales['Order Date'] = pd.to_datetime(df_sales['Order Date'], errors='coerce')
-#### Chuyển đổi các cột dạng phân loại (categorical)
+##### 1.2.2 Chuyển đổi các cột dạng phân loại (categorical)
 categorical_cols = ['Country', 'City', 'Region', 'Subregion', 'Customer',
                     'Industry', 'Segment', 'Product', 'License', 'Order ID']
 for col in categorical_cols:
     df_sales[col] = df_sales[col].astype('category')
- # Chuyển đổi các cột dạng 2 số thập phân
+##### 1.2.3 Chuyển đổi các cột dạng 2 số thập phân
 df_sales['Sales'] = df_sales['Sales'].round(2)
 df_sales['Discount'] = df_sales['Discount'].round(2)
 df_sales['Profit'] = df_sales['Profit'].round(2)
-# Loại bỏ các cột không cần thiết
+##### 1.2.4 Loại bỏ các cột không cần thiết
 df_sales = df_sales.drop(columns=['Row ID', 'Contact Name', 'License', 'Date Key'])
-# Tách cột "Order Date" theo từng tháng, từng năm
+##### 1.2.5 Tách cột "Order Date" theo từng tháng, từng năm
 df_sales['Month'] = df_sales['Order Date'].dt.month
 df_sales['Year'] = df_sales['Order Date'].dt.year
-# Kiểm tra dữ liệu bị thiếu
+##### 1.2.6 Kiểm tra dữ liệu bị thiếu
 missing_data = df_sales.isnull().sum()
 print(missing_data[missing_data > 0])
+~kq~
 Series([], dtype: int64)
-# Kiểm tra lại dữ liệu sau khi làm sạch
+##### 1.2.7 Kiểm tra lại dữ liệu sau khi làm sạch
 df_sales.info()
+~kq~
 <img width="565" height="414" alt="image" src="https://github.com/user-attachments/assets/924def1d-6714-43f2-8afc-33db5128102d" />
-
-
-
-    
+##### 1.2.8 Kết xuất dữ liệu CSV upload trên Power BI
+# Kết xuất file dữ liệu mới làm sạch để phân tích trên Power BI
+df_sales.to_csv("Cleaned_AWS_Sales.csv", index=False)
 
 ### 2. Phân tích dữ liệu trên Power BI:
 
