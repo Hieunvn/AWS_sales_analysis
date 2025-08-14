@@ -3,11 +3,11 @@
 ### 1. Tên dự án: "Phân tích doanh thu bán hàng của Amazon Web Services(AWS)"
 
 ### 2. Mục đích dự án:
-- Biến động doanh thu theo thời gian, theo khu vực, theo sản phẩm, phân khúc khách hàng...
-- Biến động lợi nhuận theo thời gian, theo khu vực, theo sản phẩm, phân khúc khách hàng…
-- Phân tích mối tương quan giữa doanh thu và lợi nhuận -> doanh thu có liên hệ như thế nào đến lợi nhuận không?
-- Phân tích mối tương quan giữa chiết khấu và lợi nhuận và doanh thu -> chiết khấu càng cao thì ảnh hưởng như thế nào đến lợi nhuận và doanh thu không?
-- Phân tích mối tương quan giữa số lượng và doanh thu -> số lượng bán nhiều có tạo ra doanh thu tương ứng không?
+- Phân tích doanh số theo thời gian, theo khu vực, theo sản phẩm, phân khúc khách hàng...
+- Phân tích lợi nhuận theo thời gian, theo khu vực, theo sản phẩm, phân khúc khách hàng…
+- Phân tích mối tương quan giữa doanh số và lợi nhuận -> doanh thu có liên hệ như thế nào đến lợi nhuận không?
+- Phân tích mối tương quan giữa chiết khấu và lợi nhuận và doanh số -> chiết khấu càng cao thì ảnh hưởng như thế nào đến lợi nhuận và doanh số không?
+- Phân tích mối tương quan giữa số lượng và doanh số -> số lượng bán nhiều có tạo ra doanh số tương ứng không?
 
 ### 3. Nguồn dữ liệu:
 https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-data-analys
@@ -71,7 +71,19 @@ Series([], dtype: int64)
 ##### 1.2.8 Kết xuất dữ liệu ra file CSV và upload trên Power BI
 `df_sales.to_csv("Cleaned_AWS_Sales.csv", index=False)`
 
-### 2. Phân tích dữ liệu trên Power BI:
+### 2. Phân tích dữ liệu trên Power BI
+#### 2.1 Phân tích doanh số (sales)
+
+#### 2.2 Phân tích lợi nhuận (profit)
+
+#### 2.3 Phân tích mối tương quan giữa doanh số và lợi nhuận
+
+#### 2.4 Phân tích mối tương quan giữa chiết khấu và lợi nhuận và doanh số
+
+#### 2.5 Phân tích mối tương quan giữa số lượng và doanh số
+
+### 3. Kết luận
+
 
 
 
