@@ -32,6 +32,7 @@ import pandas as pd
 df_sales=pd.read_csv('AWS-Sales.csv')
 ##### 1.1.3 Kiểm tra thông tin dữ liệu bảng
 df_sales.head()
+
 ~kq~
 |index|Row ID|Order ID|Order Date|Date Key|Contact Name|Country|City|Region|Subregion|Customer|Customer ID|Industry|Segment|Product|License|Sales|Quantity|Discount|Profit|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -61,14 +62,15 @@ df_sales['Year'] = df_sales['Order Date'].dt.year
 ##### 1.2.6 Kiểm tra dữ liệu bị thiếu
 missing_data = df_sales.isnull().sum()
 print(missing_data[missing_data > 0])
+
 ~kq~
 Series([], dtype: int64)
 ##### 1.2.7 Kiểm tra lại dữ liệu sau khi làm sạch
 df_sales.info()
+
 ~kq~
 <img width="565" height="414" alt="image" src="https://github.com/user-attachments/assets/924def1d-6714-43f2-8afc-33db5128102d" />
-##### 1.2.8 Kết xuất dữ liệu CSV upload trên Power BI
-# Kết xuất file dữ liệu mới làm sạch để phân tích trên Power BI
+##### 1.2.8 Kết xuất dữ liệu ra file CSV và upload trên Power BI
 df_sales.to_csv("Cleaned_AWS_Sales.csv", index=False)
 
 ### 2. Phân tích dữ liệu trên Power BI:
