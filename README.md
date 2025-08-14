@@ -31,15 +31,13 @@ import pandas as pd
 df_sales=pd.read_csv('AWS-Sales.csv')
 # Xem thông tin dữ liệu bảng
 df_sales.head()
-index	Row ID	Order ID	Order Date	Date Key	Contact Name	Country	City	Region	Subregion	Customer	Customer ID	Industry	Segment	Product	License	Sales	Quantity	Discount	Profit
-0	1	EMEA-2022-152156	11/9/2022	20221109	Nathan Bell	Ireland	Dublin	EMEA	UKIR	Chevron	1017	Energy	SMB	Marketing Suite	16GRM07R1K	261.96	2	0.0	41.9136
-1	2	EMEA-2022-152156	11/9/2022	20221109	Nathan Bell	Ireland	Dublin	EMEA	UKIR	Chevron	1017	Energy	SMB	FinanceHub	QLIW57KZUV	731.94	3	0.0	219.582
-2	3	AMER-2022-138688	6/13/2022	20220613	Deirdre Bailey	United States	New York City	AMER	NAMER	Phillips 66	1056	Energy	Strategic	FinanceHub	JI6BVL70HQ	14.62	2	0.0	6.8714
-3	4	EMEA-2021-108966	10/11/2021	20211011	Zoe Hodges	Germany	Stuttgart	EMEA	EU-WEST	Royal Dutch Shell	1031	Energy	SMB	ContactMatcher	DE9GJKGD44	957.5775	5	0.45	-383.031
-4	5	EMEA-2021-108966	10/11/2021	20211011	Zoe Hodges	Germany	Stuttgart	EMEA	EU-WEST	Royal Dutch Shell	1031	Energy	SMB	Marketing Suite - Gold	OIF7NY23WD	22.368	2	0.2	2.5164
-Show 
-25
- per page
+|index|Row ID|Order ID|Order Date|Date Key|Contact Name|Country|City|Region|Subregion|Customer|Customer ID|Industry|Segment|Product|License|Sales|Quantity|Discount|Profit|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|0|1|EMEA-2022-152156|11/9/2022|20221109|Nathan Bell|Ireland|Dublin|EMEA|UKIR|Chevron|1017|Energy|SMB|Marketing Suite|16GRM07R1K|261\.96|2|0\.0|41\.9136|
+|1|2|EMEA-2022-152156|11/9/2022|20221109|Nathan Bell|Ireland|Dublin|EMEA|UKIR|Chevron|1017|Energy|SMB|FinanceHub|QLIW57KZUV|731\.94|3|0\.0|219\.582|
+|2|3|AMER-2022-138688|6/13/2022|20220613|Deirdre Bailey|United States|New York City|AMER|NAMER|Phillips 66|1056|Energy|Strategic|FinanceHub|JI6BVL70HQ|14\.62|2|0\.0|6\.8714|
+|3|4|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|ContactMatcher|DE9GJKGD44|957\.5775|5|0\.45|-383\.031|
+|4|5|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|Marketing Suite - Gold|OIF7NY23WD|22\.368|2|0\.2|2\.5164|
 
 # Xem thông tin dữ liệu cột đã định dạng đúng kiểu để phân tích.
 df_sales.info()
