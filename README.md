@@ -76,16 +76,27 @@ Series([], dtype: int64)
 
 <img width="876" height="493" alt="image" src="https://github.com/user-attachments/assets/daee8680-87e4-4d5e-a395-870a4c68b92f" />
 
-Đánh giá tổng thể:
-- Tăng trưởng qua các năm
-- Doanh số tập trung ở khu vực EMEA 
+Phân tích tổng thể:
+- Doanh số tăng trưởng qua các năm
+- Doanh số nhiều nhất ở khu vực EMEA ( khu vực Châu Âu-Trung Đông-Châu Phi) đạt 299.07K chiếm 43,25%, tiếp đến khu vực AMER ( Châu Mỹ) đạt 268.69K chiếm 38.05% và cuối cùng là khu vực APJ ( Châu Á-Thái Bình Dương và Nhật Bản) đạt 138.39K chiếm 19.6%
+- Doanh số tập trung phần lớn phân khúc khách hàng SMB ( DN vừa và nhỏ), tiếp đến là khách hàng Stategic ( Khách hàng chiến lược) và cuối cùng là khách hàng Enterprise ( DN lớn).
+- Sản phẩm đạt doanh số cao: Alchemy và Big OI Database thuộc nhóm ngành Customer Products, Healthcare, Finance, Energy và Manufacturing.
+   
 #### 2.2 Phân tích lợi nhuận (profit)
+
+<img width="874" height="489" alt="image" src="https://github.com/user-attachments/assets/f9f877bb-a9e4-4ef5-92a0-74fa083cb488" />
+
+Phân tích tổng thể:
+- Lợi nhuận tăng trưởng qua các năm
+- Lợi nhuận mang lại nhiều nhất nằm ở khu vực EMEA đạt 147.46K chiếm 51.49%, tiếp đến khu vực AMER đạt 127.43K chiếm 44.49% và cuối cùng là khu vực APJ đạt 11.51K chiếm 4.02% nhưng khi phân tích chi tiết subregion thì** có 2 nước lợi nhuận âm **. Đó là Japan và ANZ ( gồm Úc và New Zealand)
+- 
+  
+
 
 #### 2.3 Phân tích mối tương quan giữa doanh số và lợi nhuận
 
 #### 2.4 Phân tích mối tương quan giữa chiết khấu và lợi nhuận và doanh số
 
-#### 2.5 Phân tích mối tương quan giữa số lượng và doanh số
 
 ### 3. Kết luận
 
