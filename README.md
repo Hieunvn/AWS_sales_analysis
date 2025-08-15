@@ -121,7 +121,7 @@ Series([], dtype: int64)
 <img width="857" height="481" alt="image" src="https://github.com/user-attachments/assets/55bec342-2c9c-4951-84c0-0370f127a1f5" />
 
 - Một số điểm cho thấy chiết khấu cao vẫn có doanh số cao → khả năng chương trình khuyến mãi kích thích mua hàng. Sản phẩm **Big OI Database, AIchemy, Site Analysis**
-- Tuy nhiên nhiều mức chiết khấu cao không kéo theo doanh số cao → giảm giá không hiệu quả và chỉ làm giảm lợi nhuận như sản phẩm: **ContactMercher, Marketing Suite**
+- Tuy nhiên nhiều mức chiết khấu cao không kéo theo doanh số cao → giảm giá không hiệu quả và chỉ làm giảm lợi nhuận như sản phẩm: **ContactMatcher, Marketing Suite**
   
  #### 2.6 Phân tích mối tương quan giữa số lượng và doanh số:
 
@@ -132,6 +132,14 @@ Series([], dtype: int64)
 **
 ### 3. Kết luận
 
-- 
+<img width="861" height="485" alt="image" src="https://github.com/user-attachments/assets/cde491c2-dfa4-43b6-be6c-445fa9c90b86" />
+
+- Doanh thu cao không đồng nghĩa có lợi nhuận tốt.
+Cụ thể:
+- Sản phẩm Big OI Database, ContactMarcher, Marketing Suite-Gold thuộc top 5 doanh thu cao nhất nhưng lợi nhuận thấp hơn nhiều so với sản phẩm không thuộc top như AIchemy, Data Smasher, Support
+Nguyên nhân:
++ Chiết khấu cao nhưng không mang lại lợi nhuận cao như sản phẩm Big OI Database, ContactMatcher. Có sản phẩm còn mang lợi nhuận âm Marketing Suite.
++ Chi phí 
+- Những sản phẩm có lợi nhuận tốt như AIchemy, 
 
 
