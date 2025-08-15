@@ -12,6 +12,27 @@
 ### 3. Nguồn dữ liệu:
 https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-data-analys
 
+No.	Name of the attribute	Description
+1	Row ID	A unique identifier for each transaction.
+2	Order ID	A unique identifier for each order.
+3	Order Date	The date when the order was placed.
+4	Date Key	A numerical representation of the order date (YYYYMMDD).
+5	Contact Name	The name of the person who placed the order.
+6	Country	The country where the order was placed.
+7	City	The city where the order was placed.
+8	Region	The region where the order was placed.
+9	Subregion	The subregion where the order was placed.
+10	Customer	The name of the company that placed the order.
+11	Customer ID	A unique identifier for each customer.
+13	Industry	The industry the customer belongs to.
+14	Segment	The customer segment (SMB, Strategic, Enterprise, etc.).
+15	Product	The product was ordered.
+16	License	The license key for the product.
+17	Sales	The total sales amount for the transaction.
+18	Quantity	The total number of items in the transaction.
+19	Discount	The discount applied to the transaction.
+20	Profit	The profit from the transaction.
+
 ### 4. Công cụ sử dụng:
 - Làm sạch dữ liệu sử dụng Google Colab
 - Phân tích dữ liệu sử dụng Power BI
@@ -77,7 +98,6 @@ Series([], dtype: int64)
 
 <img width="876" height="493" alt="image" src="https://github.com/user-attachments/assets/daee8680-87e4-4d5e-a395-870a4c68b92f" />
 
-Đánh giá:
 - Doanh số tăng trưởng qua các năm
 - Doanh số nhiều nhất ở khu vực EMEA ( khu vực Châu Âu-Trung Đông-Châu Phi) đạt 299.07K chiếm 43,25%, tiếp đến khu vực AMER ( Châu Mỹ) đạt 268.69K chiếm 38.05% và cuối cùng là khu vực APJ ( Châu Á-Thái Bình Dương và Nhật Bản) đạt 138.39K chiếm 19.6%
 - Doanh số tập trung phần lớn phân khúc khách hàng SMB ( DN vừa và nhỏ), tiếp đến là khách hàng Stategic ( Khách hàng chiến lược) và cuối cùng là khách hàng Enterprise ( DN lớn).
@@ -88,7 +108,6 @@ Series([], dtype: int64)
 
 <img width="874" height="489" alt="image" src="https://github.com/user-attachments/assets/f9f877bb-a9e4-4ef5-92a0-74fa083cb488" />
 
-Đánh giá:
 - Lợi nhuận tăng trưởng qua các năm
 - Lợi nhuận mang lại nhiều nhất nằm ở khu vực EMEA đạt 147.46K chiếm 51.49%, tiếp đến khu vực AMER đạt 127.43K chiếm 44.49% và cuối cùng là khu vực APJ đạt 11.51K chiếm 4.02% nhưng khi phân tích chi tiết subregion ** có 2 nước lợi nhuận âm **. Đó là **Japan và ANZ** ( gồm Úc và New Zealand)
 - Lợi nhuận tập trung tập khách hàng SMB, tiếp đến là khách hàng Stategic và cuối cùng là khách hàng Enterprise.
@@ -103,7 +122,7 @@ Series([], dtype: int64)
 
 
 ### 3. Kết luận
-
+- 
 
 
 
