@@ -14,6 +14,11 @@ https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-dat
 
 <img width="454" height="711" alt="image" src="https://github.com/user-attachments/assets/5679d005-19de-4b87-a3a5-b832bd924c70" />
 
+<img width="177" height="221" alt="image" src="https://github.com/user-attachments/assets/8473ffee-ab7a-4399-acb4-b8c14578d637" />
+
+<img width="220" height="301" alt="image" src="https://github.com/user-attachments/assets/775ede84-6de0-40a3-a5b2-3f0e22b5d925" />
+
+
 
 
 ### 4. Công cụ sử dụng:
