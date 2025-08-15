@@ -85,23 +85,21 @@ Series([], dtype: int64)
 ### 2. Phân tích dữ liệu trên Power BI tìm insights
 #### 2.1 Phân tích doanh số (sales)
 
-<img width="861" height="486" alt="image" src="https://github.com/user-attachments/assets/b9d573c4-bd05-44a0-8376-b656ab96a3e5" />
+<img width="860" height="483" alt="image" src="https://github.com/user-attachments/assets/de25fb4a-d05f-4de5-bd9c-85f324f05533" />
 
 - Doanh số tăng trưởng qua các năm
 - Doanh số nhiều nhất ở khu vực EMEA ghi nhận $1.04M chiếm 45.44%, tiếp đến khu vực AMER ghi nhận $0.84M chiếm 36.47% và cuối cùng là khu vực APJ ghi nhận $0.42M chiếm 18.09%
-- Doanh số tập trung phần lớn khách hàng SMB ( DN vừa và nhỏ) ghi nhận 1.16M chiếm 50.56%, tiếp đến là khách hàng Stategic ( Khách hàng chiến lược) ghi nhận 0.71M chiếm 30.74% và cuối cùng là khách hàng Enterprise ( DN lớn) ghi nhận 0.43M chiếm 18.7%.
-- Sản phẩm đạt doanh số cao: Alchemy, Big OI Database.
-- Nhóm ngành mang doanh số cao: Customer Products, Healthcare, Finance, Energy và Manufacturing.
+- Doanh số tập trung phần lớn khách hàng SMB ( DN vừa và nhỏ) ghi nhận 1.16M chiếm 50.56%, tiếp đến là khách hàng Stategic ( Khách hàng chiến lược) ghi nhận 0.71M chiếm 30.74% và cuối cùng là khách hàng Enterprise ( DN lớn) ghi nhận 0.43M chiếm 18.7%. Riêng Ấn Độ (IND) khách hàng Stategic chiếm tỷ trọng lớn như hình dưới.  
+- Top 5 sản phẩm đạt doanh số cao: ContractMatcher, FinanceHub, Site Analytics, Marketing suite-Gold, Big OI Database. Nhưng xét theo khu vực AMER sản phẩm Data Smasher lọt vào top 5 thay thế bởi sản phẩm Big OI Database, khu vực APJ sản phẩm Alchemy lọt top 5 thay thế sản phẩm sản phẩm Big OI Database, khu vực EMEA sản phẩm Big OI Database lọt vào top 5.
    
 #### 2.2 Phân tích lợi nhuận (profit)
 
-<img width="863" height="487" alt="image" src="https://github.com/user-attachments/assets/c12c9bbf-a256-4781-81e4-041ed3377a14" />
+<img width="860" height="486" alt="image" src="https://github.com/user-attachments/assets/5c09d148-fb64-4fe2-a190-3b05b0e35a2c" />
 
 - Lợi nhuận tăng trưởng qua các năm
-- Lợi nhuận phân tích theo region khu vực EMEA ghi nhận cao nhất $147.46K chiếm 51.49%, tiếp đến khu vực AMER ghi nhận $127.43K chiếm 44.49% và cuối cùng là khu vực APJ ghi nhận $11.51K chiếm 4.02% nhưng khi phân tích lợi nhuận theo subregion ** có 2 nước lợi nhuận âm ** đó là **Japan và ANZ** -> Điều này cho thấy ngoài doanh thu, lợi nhuận còn phụ thuộc vào chi phí theo từng khu vực.
+- Lợi nhuận phân tích theo region khu vực EMEA ghi nhận cao nhất $147.46K chiếm 51.49%, tiếp đến khu vực AMER ghi nhận $127.43K chiếm 44.49% và cuối cùng là khu vực APJ ghi nhận $11.51K chiếm 4.02% nhưng khi phân tích lợi nhuận theo subregion ** có 2 nước lợi nhuận âm ** đó là **Japan và ANZ** .Điều này cho thấy ngoài doanh thu, lợi nhuận còn phụ thuộc vào chi phí theo từng khu vực.
 - Lợi nhuận phân tích theo khách hàng SMB ghi nhận cao nhất $134.12K chiếm 46.83%, tiếp đến là khách hàng Stategic ghi nhận $91.98K chiếm 32.12% và cuối cùng là khách hàng Enterprise ghi nhận $60.3K chiếm 21.05%.
-- Sản phẩm mang lại lợi nhuận cao: Alchemy. Trong khi sản phẩm **Big OI Database** thuộc top doanh số cao nhưng mang lại **lợi nhuận âm** -> Điều này cho thấy chi phí bỏ ra đầu tư cho sản phẩm Big OI Database cao hơn lợi nhuận mang về.
-- Nhóm ngành mang lợi nhuận cao: Customer Products, Finance, Energy, Manyfacring và Tech 
+- Top 5 sản phẩm mang lại lợi nhuận cao: Alchemy, Site Analytics, Data Smasher, Support, FinanceHub. So với top 5 sản phẩm đạt doanh thu cao có sự thay đổi. Điều này cho thấy không phải sản phẩm doanh thu cao thì lợi nhuận cao
 
 #### 2.3 Phân tích mối tương quan giữa doanh số và lợi nhuận
 
