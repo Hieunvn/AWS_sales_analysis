@@ -136,12 +136,15 @@ Series([], dtype: int64)
 
 
 - Doanh thu cao không đồng nghĩa lợi nhuận cao.
+  
 Cụ thể:
 - Sản phẩm Big OI Database, ContactMatcher, Marketing Suite-Gold thuộc top 5 doanh thu nhưng lợi nhuận thấp hơn nhiều so với sản phẩm không thuộc top như AIchemy, Data Smasher, Support
+  
 Nguyên nhân:
 + Chiết khấu cao nhưng không mang lại lợi nhuận mong đợi như sản phẩm Big OI Database, ContactMatcher có thể do sản phẩm có giá trị lớn ít người dùng. Có sản phẩm lợi nhuận âm như Marketing Suite.
 + Chi phí vận hành từng khu vực cao làm ảnh hưởng lợi nhuận như Japan, ANZ
-  Đề xuất:
+  
+Đề xuất:
 - Tập trung phát triển sản phẩm vào khu vực có hiệu suất tốt.
 - Xem xét chi phí vận hành ở khu vực có lợi nhuận âm như Japan, ANZ, EU-EAST, EU-WEST, MEA, NOR, LATAM
 - Phụ thuộc vào chiến lược kinh doanh nếu muốn dành thị phần vào thị trường
