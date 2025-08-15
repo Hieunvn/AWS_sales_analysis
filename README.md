@@ -111,8 +111,26 @@ Series([], dtype: int64)
 - Có một số đơn hàng doanh số cao nhưng lợi nhuận âm → khả năng do chi phí hoặc discount cao làm lỗ. Chủ yếu sản phẩm **Big OI Database**
 - Mối quan hệ không hoàn toàn tuyến tính → Sales cao chưa chắc Profit cao.
 
-#### 2.4 Phân tích mối tương quan giữa chiết khấu và lợi nhuận và doanh số
+#### 2.4 Phân tích mối tương quan giữa chiết khấu và lợi nhuận.
 
+<img width="860" height="485" alt="image" src="https://github.com/user-attachments/assets/1dbcaaa8-3563-478a-99b8-3ad58a88d4d0" />
+
+- Khi chiết khấu tăng, Lợi nhuận thường giảm, nhiều điểm lợi nhuận âm ở mức chiết khấu cao (>0.4). Chủ yếu sản phẩm **Big OI Database, ContactMarcher, Marketing Suite**
+- Điều này phù hợp logic kinh doanh: giảm giá sâu làm biên lợi nhuận giảm hoặc lỗ.
+
+#### 2.5 Phân tích mối tương giữa chiết khấu và doanh số.
+
+<img width="857" height="481" alt="image" src="https://github.com/user-attachments/assets/55bec342-2c9c-4951-84c0-0370f127a1f5" />
+
+- Một số điểm cho thấy chiết khấu cao vẫn có doanh số cao → khả năng chương trình khuyến mãi kích thích mua số lượng lớn. Sản phẩm **Big OI Database, ContactMercher, Site Analysis**
+- Tuy nhiên, nhiều mức chiết khấu cao không kéo theo doanh số cao → chứng tỏ chiết khấu chỉ hiệu quả với một số sản phẩm/khách hàng.
+
+ #### 2.6 Phân tích mối tương quan giữa số lượng và doanh số:
+
+ <img width="860" height="481" alt="image" src="https://github.com/user-attachments/assets/057bdf9b-0cd4-4cc6-88f3-c95b25000885" />
+ 
+- Quantity tăng thì Sales tăng, nhưng quan hệ hơi phân tán do giá bán mỗi sản phẩm khác nhau.
+- Một số đơn Quantity nhỏ nhưng Sales cao → đây có thể là sản phẩm giá trị lớn.
 
 ### 3. Kết luận
 - 
