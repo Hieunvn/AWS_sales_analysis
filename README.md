@@ -85,17 +85,17 @@ Series([], dtype: int64)
 ### 2. Phân tích dữ liệu trên Power BI tìm insights
 #### 2.1 Phân tích doanh số (sales)
 
-<img width="876" height="493" alt="image" src="https://github.com/user-attachments/assets/daee8680-87e4-4d5e-a395-870a4c68b92f" />
+<img width="861" height="486" alt="image" src="https://github.com/user-attachments/assets/b9d573c4-bd05-44a0-8376-b656ab96a3e5" />
 
 - Doanh số tăng trưởng qua các năm
-- Doanh số nhiều nhất ở khu vực EMEA ( khu vực Châu Âu-Trung Đông-Châu Phi) đạt 299.07K chiếm 43,25%, tiếp đến khu vực AMER ( Châu Mỹ) đạt 268.69K chiếm 38.05% và cuối cùng là khu vực APJ ( Châu Á-Thái Bình Dương và Nhật Bản) đạt 138.39K chiếm 19.6%
-- Doanh số tập trung phần lớn phân khúc khách hàng SMB ( DN vừa và nhỏ), tiếp đến là khách hàng Stategic ( Khách hàng chiến lược) và cuối cùng là khách hàng Enterprise ( DN lớn).
+- Doanh số nhiều nhất ở khu vực EMEA ghi nhận 299.07K chiếm 43,25%, tiếp đến khu vực AMER ghi nhận 268.69K chiếm 38.05% và cuối cùng là khu vực APJ ghi nhận 138.39K chiếm 19.6%
+- Doanh số tập trung phần lớn khách hàng SMB ( DN vừa và nhỏ) ghi nhận 1.16M chiếm 50.56%, tiếp đến là khách hàng Stategic ( Khách hàng chiến lược) ghi nhận 0.71M chiếm 30.74% và cuối cùng là khách hàng Enterprise ( DN lớn) ghi nhận 0.43M chiếm 18.7%.
 - Sản phẩm đạt doanh số cao: Alchemy, Big OI Database.
 - Nhóm ngành mang doanh số cao: Customer Products, Healthcare, Finance, Energy và Manufacturing.
    
 #### 2.2 Phân tích lợi nhuận (profit)
 
-<img width="874" height="489" alt="image" src="https://github.com/user-attachments/assets/f9f877bb-a9e4-4ef5-92a0-74fa083cb488" />
+<img width="863" height="487" alt="image" src="https://github.com/user-attachments/assets/c12c9bbf-a256-4781-81e4-041ed3377a14" />
 
 - Lợi nhuận tăng trưởng qua các năm
 - Lợi nhuận mang lại nhiều nhất nằm ở khu vực EMEA đạt 147.46K chiếm 51.49%, tiếp đến khu vực AMER đạt 127.43K chiếm 44.49% và cuối cùng là khu vực APJ đạt 11.51K chiếm 4.02% nhưng khi phân tích chi tiết subregion ** có 2 nước lợi nhuận âm **. Đó là **Japan và ANZ** ( gồm Úc và New Zealand)
