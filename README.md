@@ -42,6 +42,7 @@ https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-dat
 |4|5|EMEA-2021-108966|10/11/2021|20211011|Zoe Hodges|Germany|Stuttgart|EMEA|EU-WEST|Royal Dutch Shell|1031|Energy|SMB|Marketing Suite - Gold|OIF7NY23WD|22\.368|2|0\.2|2\.5164|
 
 #### 1.2 Làm sạch dữ liệu
+Ghi chú: Bỏ qua outliers mục đích để thấy insights khi phân tích.
 ##### 1.2.1 Chuyển đổi cột "Order Date" thành kiểu datetime
 `df_sales['Order Date'] = pd.to_datetime(df_sales['Order Date'], errors='coerce')`
 ##### 1.2.2 Chuyển đổi các cột dạng phân loại (categorical)
@@ -76,24 +77,27 @@ Series([], dtype: int64)
 
 <img width="876" height="493" alt="image" src="https://github.com/user-attachments/assets/daee8680-87e4-4d5e-a395-870a4c68b92f" />
 
-Phân tích tổng thể:
+Đánh giá:
 - Doanh số tăng trưởng qua các năm
 - Doanh số nhiều nhất ở khu vực EMEA ( khu vực Châu Âu-Trung Đông-Châu Phi) đạt 299.07K chiếm 43,25%, tiếp đến khu vực AMER ( Châu Mỹ) đạt 268.69K chiếm 38.05% và cuối cùng là khu vực APJ ( Châu Á-Thái Bình Dương và Nhật Bản) đạt 138.39K chiếm 19.6%
 - Doanh số tập trung phần lớn phân khúc khách hàng SMB ( DN vừa và nhỏ), tiếp đến là khách hàng Stategic ( Khách hàng chiến lược) và cuối cùng là khách hàng Enterprise ( DN lớn).
-- Sản phẩm đạt doanh số cao: Alchemy và Big OI Database thuộc nhóm ngành Customer Products, Healthcare, Finance, Energy và Manufacturing.
+- Sản phẩm đạt doanh số cao: Alchemy, Big OI Database.
+- Nhóm ngành mang doanh số cao: Customer Products, Healthcare, Finance, Energy và Manufacturing.
    
 #### 2.2 Phân tích lợi nhuận (profit)
 
 <img width="874" height="489" alt="image" src="https://github.com/user-attachments/assets/f9f877bb-a9e4-4ef5-92a0-74fa083cb488" />
 
-Phân tích tổng thể:
+Đánh giá:
 - Lợi nhuận tăng trưởng qua các năm
-- Lợi nhuận mang lại nhiều nhất nằm ở khu vực EMEA đạt 147.46K chiếm 51.49%, tiếp đến khu vực AMER đạt 127.43K chiếm 44.49% và cuối cùng là khu vực APJ đạt 11.51K chiếm 4.02% nhưng khi phân tích chi tiết subregion thì** có 2 nước lợi nhuận âm **. Đó là Japan và ANZ ( gồm Úc và New Zealand)
-- 
-  
-
+- Lợi nhuận mang lại nhiều nhất nằm ở khu vực EMEA đạt 147.46K chiếm 51.49%, tiếp đến khu vực AMER đạt 127.43K chiếm 44.49% và cuối cùng là khu vực APJ đạt 11.51K chiếm 4.02% nhưng khi phân tích chi tiết subregion ** có 2 nước lợi nhuận âm **. Đó là **Japan và ANZ** ( gồm Úc và New Zealand)
+- Lợi nhuận tập trung tập khách hàng SMB, tiếp đến là khách hàng Stategic và cuối cùng là khách hàng Enterprise.
+- Sản phẩm mang lại lợi nhuận cao: Alchemy. Sản phẩm **Big OI Database** thuộc top 2 về doanh số nhưng mang lại **lợi nhuận âm**.
+- Nhóm ngành mang lợi nhuận cao: Customer Products, Finance, Energy, Manyfacring và Tech 
 
 #### 2.3 Phân tích mối tương quan giữa doanh số và lợi nhuận
+
+
 
 #### 2.4 Phân tích mối tương quan giữa chiết khấu và lợi nhuận và doanh số
 
