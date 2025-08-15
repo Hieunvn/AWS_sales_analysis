@@ -107,9 +107,9 @@ Series([], dtype: int64)
 
 <img width="859" height="485" alt="image" src="https://github.com/user-attachments/assets/9750b953-09e9-4e39-94ff-98b1017aa997" />
 
-- Phần lớn giao dịch có doanh số thấp < $2K nhưng Profit dao động từ âm đến dương. Chủ yếu sản phẩm **ContactMatcher**
-- Có một số đơn hàng doanh số cao nhưng lợi nhuận âm → khả năng do chi phí hoặc discount cao làm lỗ. Chủ yếu sản phẩm **Big OI Database**
-- Mối quan hệ không hoàn toàn tuyến tính → Sales cao chưa chắc Profit cao.
+- Phần lớn giao dịch có doanh số thấp < $2K nhưng lợi nhuận dao động từ âm đến dương. Chủ yếu sản phẩm **ContactMatcher**
+- Có một số đơn hàng doanh số cao nhưng lợi nhuận âm → khả năng do chi phí hoặc chiết khấu cao làm lỗ. Chủ yếu sản phẩm **Big OI Database**
+- Mối quan hệ không hoàn toàn tuyến tính → Doanh số cao chưa chắc Lợi nhuận cao.
 
 #### 2.4 Phân tích mối tương quan giữa chiết khấu và lợi nhuận.
 
@@ -122,18 +122,18 @@ Series([], dtype: int64)
 
 <img width="857" height="481" alt="image" src="https://github.com/user-attachments/assets/55bec342-2c9c-4951-84c0-0370f127a1f5" />
 
-- Một số điểm cho thấy chiết khấu cao vẫn có doanh số cao → khả năng chương trình khuyến mãi kích thích mua số lượng lớn. Sản phẩm **Big OI Database, ContactMercher, Site Analysis**
-- Tuy nhiên, nhiều mức chiết khấu cao không kéo theo doanh số cao → chứng tỏ chiết khấu chỉ hiệu quả với một số sản phẩm/khách hàng.
-
+- Một số điểm cho thấy chiết khấu cao vẫn có doanh số cao → khả năng chương trình khuyến mãi kích thích mua hàng. Sản phẩm **Big OI Database, AIchemy, Site Analysis**
+- Tuy nhiên nhiều mức chiết khấu cao không kéo theo doanh số cao → giảm giá không hiệu quả và chỉ làm giảm lợi nhuận như sản phẩm: **ContactMercher, Marketing Suite**
+  
  #### 2.6 Phân tích mối tương quan giữa số lượng và doanh số:
 
  <img width="860" height="481" alt="image" src="https://github.com/user-attachments/assets/057bdf9b-0cd4-4cc6-88f3-c95b25000885" />
  
-- Quantity tăng thì Sales tăng, nhưng quan hệ hơi phân tán do giá bán mỗi sản phẩm khác nhau.
-- Một số đơn Quantity nhỏ nhưng Sales cao → đây có thể là sản phẩm giá trị lớn.
-
+- Một số đơn số lượng tăng nhưng doanh số không tăng như sản phẩm -> Điều này cho thấy giá bán thấp hoặc bán giá rẻ như sản phẩm **support**
+- Một số đơn số lượng nhỏ nhưng doanh số cao → Đây có thể là sản phẩm giá trị lớn như sản phẩm: **Big OI Database, Alchemy
+**
 ### 3. Kết luận
-- 
 
+- 
 
 
