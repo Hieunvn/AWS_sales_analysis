@@ -88,7 +88,7 @@ Series([], dtype: int64)
 <img width="861" height="486" alt="image" src="https://github.com/user-attachments/assets/b9d573c4-bd05-44a0-8376-b656ab96a3e5" />
 
 - Doanh số tăng trưởng qua các năm
-- Doanh số nhiều nhất ở khu vực EMEA ghi nhận 299.07K chiếm 43,25%, tiếp đến khu vực AMER ghi nhận 268.69K chiếm 38.05% và cuối cùng là khu vực APJ ghi nhận 138.39K chiếm 19.6%
+- Doanh số nhiều nhất ở khu vực EMEA ghi nhận $1.04M chiếm 45.44%, tiếp đến khu vực AMER ghi nhận $0.84M chiếm 36.47% và cuối cùng là khu vực APJ ghi nhận $0.42M chiếm 18.09%
 - Doanh số tập trung phần lớn khách hàng SMB ( DN vừa và nhỏ) ghi nhận 1.16M chiếm 50.56%, tiếp đến là khách hàng Stategic ( Khách hàng chiến lược) ghi nhận 0.71M chiếm 30.74% và cuối cùng là khách hàng Enterprise ( DN lớn) ghi nhận 0.43M chiếm 18.7%.
 - Sản phẩm đạt doanh số cao: Alchemy, Big OI Database.
 - Nhóm ngành mang doanh số cao: Customer Products, Healthcare, Finance, Energy và Manufacturing.
@@ -98,14 +98,18 @@ Series([], dtype: int64)
 <img width="863" height="487" alt="image" src="https://github.com/user-attachments/assets/c12c9bbf-a256-4781-81e4-041ed3377a14" />
 
 - Lợi nhuận tăng trưởng qua các năm
-- Lợi nhuận mang lại nhiều nhất nằm ở khu vực EMEA đạt 147.46K chiếm 51.49%, tiếp đến khu vực AMER đạt 127.43K chiếm 44.49% và cuối cùng là khu vực APJ đạt 11.51K chiếm 4.02% nhưng khi phân tích chi tiết subregion ** có 2 nước lợi nhuận âm **. Đó là **Japan và ANZ** ( gồm Úc và New Zealand)
-- Lợi nhuận tập trung tập khách hàng SMB, tiếp đến là khách hàng Stategic và cuối cùng là khách hàng Enterprise.
-- Sản phẩm mang lại lợi nhuận cao: Alchemy. Sản phẩm **Big OI Database** thuộc top 2 về doanh số nhưng mang lại **lợi nhuận âm**.
+- Lợi nhuận phân tích theo region khu vực EMEA ghi nhận cao nhất $147.46K chiếm 51.49%, tiếp đến khu vực AMER ghi nhận $127.43K chiếm 44.49% và cuối cùng là khu vực APJ ghi nhận $11.51K chiếm 4.02% nhưng khi phân tích lợi nhuận theo subregion ** có 2 nước lợi nhuận âm ** đó là **Japan và ANZ** -> Điều này cho thấy ngoài doanh thu, lợi nhuận còn phụ thuộc vào chi phí theo từng khu vực.
+- Lợi nhuận phân tích theo khách hàng SMB ghi nhận cao nhất $134.12K chiếm 46.83%, tiếp đến là khách hàng Stategic ghi nhận $91.98K chiếm 32.12% và cuối cùng là khách hàng Enterprise ghi nhận $60.3K chiếm 21.05%.
+- Sản phẩm mang lại lợi nhuận cao: Alchemy. Trong khi sản phẩm **Big OI Database** thuộc top doanh số cao nhưng mang lại **lợi nhuận âm** -> Điều này cho thấy chi phí bỏ ra đầu tư cho sản phẩm Big OI Database cao hơn lợi nhuận mang về.
 - Nhóm ngành mang lợi nhuận cao: Customer Products, Finance, Energy, Manyfacring và Tech 
 
 #### 2.3 Phân tích mối tương quan giữa doanh số và lợi nhuận
 
+<img width="859" height="485" alt="image" src="https://github.com/user-attachments/assets/9750b953-09e9-4e39-94ff-98b1017aa997" />
 
+- Phần lớn giao dịch có doanh số thấp < $2K nhưng Profit dao động từ âm đến dương. Chủ yếu sản phẩm **ContactMatcher**
+- Có một số đơn hàng doanh số cao nhưng lợi nhuận âm → khả năng do chi phí hoặc discount cao làm lỗ. Chủ yếu sản phẩm **Big OI Database**
+- Mối quan hệ không hoàn toàn tuyến tính → Sales cao chưa chắc Profit cao.
 
 #### 2.4 Phân tích mối tương quan giữa chiết khấu và lợi nhuận và doanh số
 
