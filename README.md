@@ -12,26 +12,9 @@
 ### 3. Nguồn dữ liệu:
 https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-data-analys
 
-No.	Name of the attribute	Description
-1	Row ID	A unique identifier for each transaction.
-2	Order ID	A unique identifier for each order.
-3	Order Date	The date when the order was placed.
-4	Date Key	A numerical representation of the order date (YYYYMMDD).
-5	Contact Name	The name of the person who placed the order.
-6	Country	The country where the order was placed.
-7	City	The city where the order was placed.
-8	Region	The region where the order was placed.
-9	Subregion	The subregion where the order was placed.
-10	Customer	The name of the company that placed the order.
-11	Customer ID	A unique identifier for each customer.
-13	Industry	The industry the customer belongs to.
-14	Segment	The customer segment (SMB, Strategic, Enterprise, etc.).
-15	Product	The product was ordered.
-16	License	The license key for the product.
-17	Sales	The total sales amount for the transaction.
-18	Quantity	The total number of items in the transaction.
-19	Discount	The discount applied to the transaction.
-20	Profit	The profit from the transaction.
+<img width="454" height="711" alt="image" src="https://github.com/user-attachments/assets/5679d005-19de-4b87-a3a5-b832bd924c70" />
+
+
 
 ### 4. Công cụ sử dụng:
 - Làm sạch dữ liệu sử dụng Google Colab
