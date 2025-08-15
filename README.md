@@ -20,7 +20,7 @@ https://www.kaggle.com/code/gabrielenoaro/saas-company-aws-sales-exploratory-dat
 
 <img width="122" height="81" alt="image" src="https://github.com/user-attachments/assets/69e005cc-61b5-4aa1-9b90-c8973af39173" />
 
-<img width="1188" height="261" alt="image" src="https://github.com/user-attachments/assets/a45bfd48-3773-4dd0-871e-d3dd8b269a59" />
+<img width="1740" height="261" alt="image" src="https://github.com/user-attachments/assets/33b7b6ea-10af-4de1-9072-f8c3cfc393d6" />
 
 ### 4. Công cụ sử dụng:
 - Làm sạch dữ liệu sử dụng Google Colab
